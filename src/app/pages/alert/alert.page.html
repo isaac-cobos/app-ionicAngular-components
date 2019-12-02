@@ -1,4 +1,10 @@
-<app-header titulo="alert page"></app-header>
-<h1>Alert page</h1>
+<app-header [titulo]="nuevoNombre || 'Alert Page'"></app-header>
 
-<ion-content> </ion-content>
+<ion-content>
+  <ion-button color="primary" expand="full" (click)="presentAlert()"
+    >Mostrar alert</ion-button
+  >
+  <ion-button color="secondary" expand="full" (click)="changeNameHeader()"
+    >Cambiar nombre Header</ion-button
+  >
+</ion-content>

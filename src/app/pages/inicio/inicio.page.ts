@@ -16,6 +16,31 @@ export class InicioPage implements OnInit {
       icon: 'appstore',
       name: 'alert',
       redirecTo: '/alert'
+    },
+    {
+      icon: 'checkmark-circle-outline',
+      name: 'Checkbox',
+      redirecTo: '/check'
+    },
+    {
+      icon: 'beaker',
+      name: 'Avatar',
+      redirecTo: '/avatar'
+    },
+    {
+      icon: 'radio-button-on',
+      name: 'Botones y router',
+      redirecTo: '/botones'
+    },
+    {
+      icon: 'card',
+      name: 'Cards',
+      redirecTo: '/card'
+    },
+    {
+      icon: 'calendar',
+      name: 'Date Time',
+      redirecTo: '/date-time'
     }
   ];
 
